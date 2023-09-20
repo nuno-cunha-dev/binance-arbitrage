@@ -1,0 +1,23 @@
+{
+  "autor": "Nuno Cunha",
+  "name": "binance-arbitrage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "binance-api-node": "^0.12.6",
+    "dotenv": "^16.3.1",
+    "mathjs": "^11.11.1"
+  }
+}
